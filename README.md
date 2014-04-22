@@ -30,10 +30,13 @@ echo route add default gw 192.168.1.254 >> /data/ap.sh
 chmod 755 /data/ap.sh
 ```
 
-AFter this, and every time your drone reboots, run on the drone:
+After this, and every time your drone reboots, run on the drone:
 ```
 /data/ap.sh
 ```
+
+Alternatively to the above, you can connect your drone to a secure wireless network with the following scripts: https://github.com/daraosn/ardrone-wpa2
+
 The device you used to initially connect to the drone's hotspot will now lose it's connection because the drone is connecting to an existing network.
 
 ##How to run stuff
